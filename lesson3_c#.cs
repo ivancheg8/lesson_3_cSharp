@@ -5,7 +5,7 @@
 12821 -> да
 23432 -> да
 */
-/*
+
 void palindrom(int n) // способ через string
 {
     if (n < 0) n = n * -1;
@@ -27,7 +27,7 @@ void palindrom(int n) // способ через string
 Console.Write("введите пятизначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 palindrom(a);
-*/
+
 
 
 
@@ -38,7 +38,7 @@ palindrom(a);
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
-/*
+
 void size(double ax, double ay, double az, double bx, double by, double bz)
 {
     double ad = bz - az;
@@ -64,7 +64,7 @@ Console.Write("введите bz: ");
 double bz = Convert.ToDouble(Console.ReadLine());
 
 size(ax, ay, az, bx, by, bz);
-*/
+
 
 
 
@@ -75,7 +75,7 @@ size(ax, ay, az, bx, by, bz);
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125
 */
-/*
+
 void kub(int n)
 {
     if (n < 0) n = n * -1;
@@ -91,4 +91,3 @@ void kub(int n)
 Console.Write("введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 kub(a);
-*/
