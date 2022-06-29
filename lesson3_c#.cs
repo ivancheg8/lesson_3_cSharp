@@ -82,7 +82,7 @@ void kub(int n)
     int a = 1;
     while (a <= n)
     {
-        int b = a * a * a;
+        double b = Math.Pow(a, 3);
         Console.Write(b + ", ");
         a++;
     }
